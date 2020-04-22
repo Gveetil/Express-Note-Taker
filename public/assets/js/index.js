@@ -11,7 +11,7 @@ var $modalDialogCancelBtn = $(".modal-dialog-cancel");
 var $modalDialogText = $(".modal-text");
 
 // Validation messages and modal dialog buttons
-const changesNotSavedMessage = "Changes made to this note have not been saved. Do you wish to proceed without saving ?";
+const changesNotSavedMessage = "Changes made to this note have not been saved. <br>Do you wish to proceed without saving ?";
 const dataValidationMessage = "Please enter a valid Note Title and Text!";
 const ModalButtonType = { OkCancel: 1, Close: 2 };
 
@@ -160,7 +160,7 @@ var validateForm = function (callingFunction, data) {
 // Displays a modal dialog asynchronously with the given message and button type
 var showModalDialog = function (message, buttonType) {
   console.log(message);
-  $modalDialogText.text(message);
+  $modalDialogText.html(message);
   if (buttonType == ModalButtonType.OkCancel) {
     // Show Ok Cancel Buttons
     $modalDialogOkBtn.show();

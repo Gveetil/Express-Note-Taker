@@ -128,7 +128,7 @@ var handleNoteTakerLink = function (event, validate = true) {
   if (validate && !validateForm("handleNoteTakerLink", this)) {
     return;
   }
-  window.location = $(this).href;
+  window.location.assign("/");
 };
 
 // This function is executed when the ok button is clicked on the modal dialog 

@@ -5,18 +5,23 @@
 
 ![Note Taker Application](images/readme_express_note_taker.png "Note Taker Application")<br><br>
 
-The Note Taker application lets users organize their thoughts and keep track of tasks that need to be done, by proving them with a quick and easy way to create, save, and delete notes on the go. It is powered by Node.js and uses an express backend server. The application also uses a JSON file as a data store to persist notes and work with note data. <br>
+The Note Taker application lets users organize their thoughts and keep track of tasks that need to be done, by providing a quick and easy way to create, save, and delete notes on the go. It is powered by Node.js and uses an express backend server. The application also uses a JSON file as a data store to persist notes and work with note data. <br>
 
-Deployed Application: [Note Tracker](https://polar-dawn-12559.herokuapp.com/)
+Deployed Application: [Note Tracker](https://gveetil-note-taker.herokuapp.com/)
 <br><br>
 
 ## Table of Contents 
 
 - [Installation Instructions](#installation-instructions)
 - [Usage Guidelines](#usage-guidelines)
+- [Known Issues](#known-issues)
 <br><br>
 
 ## Installation Instructions
+
+The application is available on Heroku at: [Note Tracker](https://gveetil-note-taker.herokuapp.com/)
+
+To install a local instance of the application, follow the steps below:
 
 - #### Node.js  
 This application needs Node.js to execute. To install Node.js, run the appropriate installer from https://nodejs.org/en/download/ and follow the prompts to complete the installation. 
@@ -71,3 +76,10 @@ On Clicking `Get Started`, the application loads up all the notes saved in the s
 * Selecting cancel / close allows the user to continue editing and saving the data.
 * If the user chooses the ok option, the note is not saved and the application proceeds with the action requested.
 
+## Known Issues
+
+This application is currently hosted on Heroku and has variable performance based on usage. To improve performance, I have tried hosting the application from a different region - both links are available below, hopefully should work better in the Europe one! 
+
+Europe: https://gveetil-note-taker.herokuapp.com/
+
+US: https://polar-dawn-12559.herokuapp.com/ 
